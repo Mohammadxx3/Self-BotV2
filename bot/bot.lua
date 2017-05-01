@@ -62,12 +62,12 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "mamad",
+    "محمد",
+    "ممدی",
+    "محمدرضا",
+    "Mohamad",
+    "Mohammadreza"
     },
     answers = {
     "وات؟ :/",
@@ -108,40 +108,16 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
 	config = {
     enabled_plugins = {
-    "self-manager",
-    "groupmanager",
     "plugins",
     "self",
 		"tools",
-     "fun"
 	},
-    sudo_users = {157059515},
+    sudo_users = {346189693},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Self Bot V2.5
-An fun bot based on BDReborn
-
-》https://github.com/BeyondTeam/Self-BotV2 
-
-》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@To0fan ➣ Developer《
-》@CiveY ➣ Developeer《
-》@MrPars ➣ Manager《
-
-》Special thanks to :
-》@Vysheng
-》@MrHalix
-》@Tele_Sudo
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+    info_text = [[
+		کص ننت خارکسده
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
